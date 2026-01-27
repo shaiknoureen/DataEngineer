@@ -1,0 +1,33 @@
+#write a program to create addition,multiplication,subtraction of two variables?
+
+a = 500
+x= 200
+count = a+x
+print("the addition of two variables is: ",count)
+
+subt = a-x
+print("the subtraction  of two variables is: ",subt)
+
+produt = a*x
+print("the product of two variables is: ",produt)
+
+
+#write a program to explain the Name Error?
+
+a = 500
+x= 200
+
+#count = A+E
+#COUNT=a+x
+
+
+#write a program to explain how does the print statement works with new line?
+
+print("There are many variations of passages of Lorem Ipsum available,\n but the majority have suffered alteration in some form, by injected humour, or randomised words which \ndon't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as \nnecessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence \nstructures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour,or non-characteristic words etc")
+
+
+# write a program to print 3 variables ?
+a = 500
+x= 200
+b = 300
+print(a,b,x) 
