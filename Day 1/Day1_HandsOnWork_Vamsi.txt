@@ -1,0 +1,20 @@
+a = 10
+b = 20
+c = a + b
+d = a - b
+e = a * b
+print("Addition of 2 variable is:",c)
+print("Subtraction of 2 variable is:",d)
+print("Multiplication of 2 variable is:",e)
+
+Name = 1
+Class = 10
+add = NAME + Class
+print(add)
+
+print("vamsi \n" "krishna")
+
+a = 1
+b = 2
+c = 3
+print(a+b+c)
