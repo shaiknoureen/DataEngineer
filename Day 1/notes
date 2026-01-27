@@ -1,0 +1,53 @@
+print("hello")
+print("world")
+print("today vamsi,akhila,pavan joined their python class")
+print("how is your print statement running in your machines, \n"
+"am also in the line")
+print("-"*30)
+
+print("Lorem Ipsum is simply dummy text of the printing and typesetting, /n" "industry. Lorem Ipsum has been the industry's standard dummy text ever since the ,/n""1500s, when an unknown printer took a galley of type and scrambled it to make,\n"" a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,\n"" remaining essentially unchanged\n"". It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\n"" and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+print("-"*30)
+
+#variables
+lets_take_a_variable = 100 #declaring it in letter,word,sentence
+b = 100 #storing value 100 in to the variable b
+count = lets_take_a_variable + b
+print("the addition of two variables is:",count)
+print("-"*30)
+
+
+a = 100
+b = 5
+l = a + b
+print(l)
+
+lets_take_a_variable = 100
+b = 45
+count = (a - b)
+print("the subraction is", count)
+
+a = 100
+a_new_vriable = 200
+count = a + a_new_vriable
+print("the addition of two variables is: ", count)
+subt = a - a_new_vriable
+print("the subtraction  of two variables is: ", subt)
+
+lets_take_a_variable = 100
+b = 100
+count = lets_take_a_variable + b
+Sub = lets_take_a_variable - b
+print("Addition of two variables is:", count)
+print("Subtraction of two variables is:", Sub)
+
+
+#name error and identation error
+variable = 100
+words = 200
+c = variable+words # python is a case sensitive
+print(c)
+
+
+print("hello")
+
+
