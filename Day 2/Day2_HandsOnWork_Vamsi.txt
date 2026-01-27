@@ -1,0 +1,26 @@
+#Homework
+#write a program to call the variable in the data and print my name is python and i do have various library inbuit in me.
+name = "python"
+print("my name is", name,"and i do have various library inbuit in me")
+
+#write a program to change string datatype to int datatype.
+str = "100" #string
+n = int(str)
+print(type(n))
+
+#write a program to show the difference between implicit and explicit casting.
+a = 100.2
+print(type(a))
+b = int(100.2)
+print(type(b))
+
+
+#write a program to show difference between float datatype and complex datatype.
+x = 7.63
+print(type(x))
+y = 7.6j
+print(type(y))
+
+#write a program to find the length of the string "abcaaaaaafeeddrgtaaaaakjhgtn"
+str = ("abcaaaaaafeeddrgtaaaaakjhgtn")
+print(len(str))
