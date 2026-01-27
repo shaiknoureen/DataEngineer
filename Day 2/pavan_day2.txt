@@ -1,0 +1,36 @@
+#write a program to call the variable in the data and print my name is python and i do have various library inbuit in me.
+
+name = "python"
+print("my name is ",name, "and i do have various library inbuilt in me")
+
+
+#write a program to change string datatype to int datatype.
+c = "23"
+a = int(c)
+print(a)
+
+
+#write a program to show the difference between implicit and explicit casting.
+
+x = 20 #  here x is an inter which is not define by us but it is automatically taken inbult by python
+y = 10.20 # as the same y is a float
+print(type(x))
+print(type(y))
+print(x+y)
+
+
+x = 20
+y = int(10.20) # as the same y is a float
+print(x+y)
+
+
+
+#write a program to show difference between float datatype and complex datatype.
+a = 100.20
+c = 100j
+print(type(a))
+print(type(c))
+
+#write a program to find the length of the string "abcaaaaaafeeddrgtaaaaakjhgtn"
+a = "abcaaaaaafeeddrgtaaaaakjhgtn"
+print(len(a))
