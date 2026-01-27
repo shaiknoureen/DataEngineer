@@ -1,0 +1,26 @@
+#calling a variable
+name="python"
+print("my name is", name ,"and i do have various library inbuilt in me")
+
+#to change string datatype to int datatype
+a="23"
+print(int(a))
+
+#difference between implicit and explicit casting
+a =55.3
+print(type(a))
+b = int(55.3)
+print(type(b))
+
+#to show difference between float datatype and complex datatype.
+x =20
+print(type(x))
+y = 100.j
+print(type(y))
+
+#length of string
+
+str = ("abcaaaaaafeeddrgtaaaaakjhgtn")
+print(len(str))
+
+
