@@ -1,0 +1,44 @@
+first_name = "shaik"
+last_name = "noureen"
+print("details of the member is here: the first name is",first_name,"and the last name is:",last_name)
+#datatypes
+#int
+#string
+#float
+#complex
+
+a = 100 #whenever you create variable it create objectid in the memory
+print(type(a)) #implicit casting
+b = "python"
+print(type(b))
+c = 100.23
+print(type(c))
+d = 123.6j
+print(type(d))
+
+#casting
+abc = str(100)
+print(abc)
+bcd = float(100)
+print(bcd)
+agt = complex(100)
+print(agt)
+
+
+x = int(1) #explicit casting
+print(x)
+y = int(2.8)
+print(y)
+z = int("23")
+print(z)
+
+variable = "python is a user friendly technology"
+print(len(variable))
+
+list = [1,2,3,4,5,6]
+print(len(list)) #length of the variable
+
+
+
+
+
