@@ -1,0 +1,33 @@
+a=100
+b=5
+l=a+b
+print(l)
+
+lets_take_a_variable=100
+b=45
+count=(a-b)
+print("the subraction is",count)
+
+
+#NameError happens when you use a variable name that is not defined
+x=0
+print(x)   # x is not defined
+
+x=5         #x is defined
+print(x)
+
+#print statement work with a new line
+
+print("my name is\n" "Akhila")
+
+#program to print 3 variables
+a=10
+b=5
+c=7
+l=a+b+c
+print("Addition:", a+b+c)
+print("Substraction:" ,a-b-c)
+print("multiply:",a*b*c)
+print("division:",a/b)
+print("modulus:",a%b)
+print("exponential",a**b)
