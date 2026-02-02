@@ -1,0 +1,41 @@
+#1. Create a list of 5 numbers and print it.
+list = [1,2,3,4,5]
+print(list)
+
+#2. Add a new number to the end of a list using append().
+list.append(6)
+print(list)
+
+#3. Add multiple elements to a list using extend().
+list.extend([7,8,9])
+print(list)
+
+#4. Insert a number at the second position in a list using insert().
+list.insert(2,2)
+print(list)
+
+#5. Remove a specific element from a list using remove().
+list.remove(2)
+print(list)
+
+#6. Remove the last element from a list using pop().
+list.pop(8)
+print(list)
+
+#7. Find the length of a list using len().
+print(len(list))
+
+#8. Sort a list in ascending order using sort().
+list = [2,4,5,1,3,6,8,7]
+list.sort()
+print(list)
+
+#9. Reverse a list using reverse().
+list = [1,2,3,4,5]
+list.reverse()
+print(list)
+
+#10. Count how many times a given number appears in a list using count().
+z = [1,2,3,1,4,1,5,1,6,7,8,1]
+print(z.count(1))
+
