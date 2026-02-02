@@ -1,0 +1,49 @@
+for i in range(10):
+    print(i)
+
+
+for abc in range(20):
+    if abc%2 == 0:
+        print(abc,"is even")
+    else:
+        print(abc,"is odd")
+        
+abc = 0
+for x in range(11):
+ abc = abc + x
+print(abc)
+
+
+for p in range(10):
+    print(p * 2)
+
+
+count = 0
+b = [1,2,1,1,2,2,3,2,3,1,1,1,3]
+for b in b:
+    if b == 1:
+        count += 1
+print(count)
+
+
+c = "string"
+for x in c:
+  print(x)
+
+
+
+f = "i am a good boy"
+for x in f:
+  if x == ("a","e","i","o","u"):
+    count += 1
+print(count)
+
+
+for s in range(1,3):
+  print("*" * s)
+for s in range(1,4):
+     print("*"* s)
+
+
+
+
