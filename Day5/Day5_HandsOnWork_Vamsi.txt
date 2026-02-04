@@ -1,0 +1,118 @@
+#1. Password Validation
+#Scenario:
+#Write a program that repeatedly asks the user to enter a password until the correct password "secret123" is entered. If the user enters the wrong password, print "Try again".
+#Which loop structure will you use?
+password = ""
+while password !="secret123":
+    password = str(input("Enter password:"))
+    if password == "secret123":
+        print("Access granted")
+    else:
+        print("Try again")
+
+#2. Sum of User Inputs
+#Scenario:
+#Keep asking the user to input positive numbers and add them to a total sum. Stop when the user enters 0 or a negative number, then display the sum.
+#How to check the condition?
+#How to keep track of the sum?
+total = 0
+number = 1
+while number >0:
+    number = int(input("Enter a positive number:"))
+    if number >0:
+        total += number
+print("sum=", total)
+
+#3.Menu with Exit Option
+#Create a menu-driven program that shows options continuously until the user chooses to exit (option 4)
+#1. Add item
+#2. Delete item
+#3. View items
+#4. Exit
+#How do you keep the menu running until exit?
+#How to capture user input inside the loop?
+choice = 0
+while True:
+    print("\n1. Add item")
+    print("2. Delete item")
+    print("3. View items")
+    print("4. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        print("Item added")
+    elif choice == 2:
+        print("Item deleted")
+    elif choice == 3:
+        print("Viewing items")
+    elif choice == 4:
+        print("Exiting program")
+        break
+    else:
+        print("Invalid choice. Please enter again.")
+
+#4. Day of the Week
+#Ask the user to enter a number from 1 to 7, and print the corresponding day of the week (1 = Monday, 7 = Sunday). If the number is out of range, print "Invalid day".
+#Which control structure fits best?
+#How to handle invalid input?
+number = 1
+while number >0:
+    number = int(input("enter a number from 1 to 7:"))
+    if number == 1:
+        print("monday")
+    elif number == 2:
+        print("tuesday")
+    elif number == 3:
+        print("wednesday")
+    elif number == 4:
+        print("thursday")
+    elif number == 5:
+        print("friday")
+    elif number == 6:
+        print("saturday")
+    elif number == 7:
+        print("sunday")
+    else:
+        print("Invalid day")
+
+#5. Calculator Operations
+#Build a simple calculator that asks the user to enter an operator (+, -, *, /) and two numbers, then performs the operation. Use switch-case to decide which operation to perform.
+#How to map operators to cases?
+#What to do for invalid operators?
+operator =input("enter an operator(+, -, *, /):")
+a = int(input("Enter a number:"))
+b = int(input("Enter another number:"))
+match operator:
+    case "+":
+        print("a+b=",a+b)
+    case "-":
+        print("a-b=",a-b)
+    case "*":
+        print("a*b=",a*b)
+    case "/":
+        if b!=0:
+            print("a/b=",a/b)
+        else:
+            print("Error: Division by zero")
+    case _:
+        print("Invalid operator")
+
+#6. User Roles and Access
+#You have 3 types of users:
+#1: Admin
+#2: Editor
+#3: Viewer
+#Based on the role number entered, print the access level. If the role is invalid, print "Access denied".
+#How will switch-case help here?
+#How to handle unexpected input?
+role =input("enter roles(1-Admin,2-Editor,3-Moderator):")
+match role:
+    case "1":
+        print("Access level: Admin")
+    case "2":
+        print("Access level: Editor")
+    case "3":
+        print("Access level: Moderator")
+    case _:
+        print("Access denied")
