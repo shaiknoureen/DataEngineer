@@ -1,0 +1,121 @@
+
+password = ""
+while password != "secret123 "  :
+  password = input("enter your password")
+
+  if password == "secret123":
+       print("correct")
+       break
+  else:
+       print("TRY AGAIN")
+
+
+tot = 0
+x = int(input("enter a number"))
+while x!=0 or x>0:
+    tot = tot + x
+    x = int(input("enter a number"))
+else:
+  print(tot)
+
+
+while True:
+    print("Menu Options:")
+    print("1. Add item")
+    print("2. Delete item")
+    print("3. View items")
+    print("4. Exit")
+
+    choice = input("Enter your choice (1-4): ")
+
+    if choice == '1':
+        print("Action: Add item")
+    elif choice == '2':
+        print("Action: Delete item")
+    elif choice == '3':
+        print("Action: View items")
+    elif choice == '4':
+        print("Action: Exiting the program. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please enter a number between 1 and 4.")
+
+
+
+
+while True:
+
+    choice = input("Enter your choice (1-7): ")
+
+    if choice == '1':
+        print("monday")
+        break
+    elif choice == '2':
+        print("tuesday")
+        break
+    elif choice == '3':
+        print("wednesday")
+        break
+    elif choice == '4':
+        print("thursday")
+        break
+    elif choice == '5':
+        print("friday")
+        break
+    elif choice == '6':
+        print("saturday")
+        break
+    elif choice == '7':
+        print("sunday")
+        break
+    else:
+        print("Invalid choice. Please enter a number between 1 and 7.")
+
+
+
+
+oop =input("Enter your choice(+,-,*,/): ")
+i = int(input("Enter your first number: "))
+j = int(input("Enter your second number: "))
+
+match oop :
+              case '+':
+                print(i+j)
+              case'-':
+                print(i-j)
+              case'*':
+                print(i*j)
+              case'/':
+                  print(i/j)
+              case _:
+                  print("invalid")
+
+
+level =input("Enter your designation: ")
+match level :
+       case 'admin':
+         print(level)
+       case 'editor':
+         print(level)
+       case'viewer':
+         print(level)
+       case _:
+         print("access denied.")
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
