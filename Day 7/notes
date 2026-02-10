@@ -1,0 +1,12 @@
+car = {
+    "brand":"ford",
+    "model":"mustang",
+    "color":["red","orange","white" ],
+    "year":1968,
+    "year":2026,
+    "year":1945,# item! accessing the item from the dictionary
+}
+print(car)
+print(len(car))
+print(type(car))
+print(car["brand"])
