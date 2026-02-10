@@ -1,0 +1,88 @@
+#Write a program to create a tuple of 5 elements and print:
+#the first element
+#the last element
+#the length of the tuple
+
+x=(10,20,30,40,50)
+print(x)
+print(x[1])
+print(x[-1])
+print(len(x))
+
+#Tuple Slicing
+#Given a tuple of numbers, write a program to print:
+#elements from index 1 to 4
+#every second element
+x=(10,20,30,40,50)
+print(x[1:5])
+print(x[::2])
+
+#Tuple Methods
+#Write a program to count how many times an element appears in a tuple using count()
+tup=(1,2,3,4,1,2,3,4,5)
+print(tup.count(2))
+
+#Find the index of a given element using index()
+print(tup.index(3))
+#Tuple to List Conversion
+#Write a program to convert a tuple into a list, add a new element, and convert it back into a tuple.
+x=(10,20,30,40,50)
+y=list(x)
+print(y)
+y.append(70)
+print(y)
+x=tuple(y)
+print(x)
+
+#Tuple Packing and Unpacking
+#Write a program to pack multiple values into a tuple and then unpack them into separate variables.
+a= (25,35,45)
+(x,y,z)=a
+print(x)
+print(y)
+print(z)
+
+#Create a Set
+#Write a program to create a set and print all its elements.
+a={1,2,3.5,4,"sai"}
+print(a)
+#Add Elements
+#Write a program to add a single element to a set using add().
+a.add("akhila")
+print(a)
+
+#Add Multiple Elements
+#Write a program to add multiple elements to a set using update()
+a.update("chow","mani")
+print(a)
+#Remove Element
+#Write a program to remove an element from a set using remove().
+a.remove("akhila")
+print(a)
+#Discard Element
+#Write a program to remove an element using discard() and explain the difference from remove().
+a.discard("3.5")
+print(a)
+#Pop Element
+#Write a program to remove a random element from a set using pop().
+a.pop()
+print(a)
+#Clear Set
+#Write a program to remove all elements from a set using clear().
+a.clear()
+print(a)
+
+#sets
+
+a={10,20,30,40,50}
+b={20,30,40}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+print(a.symmetric_difference(b))
+print(a.issubset(b))
+print(a.issuperset(b))
+print(a.isdisjoint(b))
+print(a.copy())
+print(b.copy())
+
