@@ -1,0 +1,113 @@
+#1.Write a program to create a tuple of 5 elements and print:
+#the first element
+#the last element
+#the length of the tuple
+a = (1,2,3,4,5)
+print(a[0])
+print(a[4])
+print(len(a))
+
+#2. Tuple Slicing
+#Given a tuple of numbers, write a program to print:
+#elements from index 1 to 4
+#every second element
+a = (1,2,3,4,5)
+print(a[1:5])
+print(a[::2])
+
+#3.Tuple Methods
+#Write a program to count how many times an element appears in a tuple using count()
+m = (1,2,3,1,4,1,5,1)
+print(m.count(1))
+
+#4.Find the index of a given element using index()
+print(m.index(5))
+
+#5.Tuple to List Conversion
+#Write a program to convert a tuple into a list, add a new element, and convert it back into a tuple.
+s = (1,2,3)
+j = list(s)
+print(j)
+j.append(4)
+print(j)
+s = tuple(j)
+print(s)
+
+#Tuple Packing and Unpacking
+#Write a program to pack multiple values into a tuple and then unpack them into separate variables.
+pack = (100,200,300)
+(i,o,u)=pack
+print(i)
+print(o)
+print(u)
+
+#1.Create a Set
+#Write a program to create a set and print all its elements.
+f = {1,3,"v",5.8}
+print(f)
+
+#2.Add Elements
+#Write a program to add a single element to a set using add().
+f.add("krishna")
+print(f)
+
+#3.Add Multiple Elements
+#Write a program to add multiple elements to a set using update().
+f.update("bed","cup")
+print(f)
+
+#4.Remove Element
+#Write a program to remove an element from a set using remove().
+f.remove("krishna")
+print(f)
+
+#5.Discard Element
+#Write a program to remove an element using discard() and explain the difference from remove().
+f.discard("2")
+#f.remove("2") #Remove gives error if the given element doesn't exit, but discard runs without error
+print(f)
+
+#6.Pop Element
+#Write a program to remove a random element from a set using pop().
+f.pop()
+print(f)
+
+#7.Clear Set
+#Write a program to remove all elements from a set using clear().
+f.clear()
+print(f)
+
+#8.Union of Sets
+#Write a program to find the union of two sets using union().
+a = {1,2,3,4}
+b = {1,2,3,4,5,6}
+print(a.union(b))
+
+#9.Intersection of Sets
+#Write a program to find the common elements between two sets using intersection().
+print(a.intersection(b))
+
+#10.Difference of Sets
+#Write a program to find the difference between two sets using difference().
+print(b.difference(a))
+
+#11.Symmetric Difference
+#Write a program to find elements that are in either of the sets but not in both using symmetric_difference().
+print(b.symmetric_difference(a))
+
+#12.Subset Check
+#Write a program to check whether one set is a subset of another using issubset().
+print(a.issubset(b))
+print(a.issuperset(b))
+
+#13.superset
+print(b.issuperset(a))
+print(a.issuperset(b))
+
+#14.Write a program to check whether two sets are disjoint using isdisjoint().
+print(a.isdisjoint(b))
+
+#15.Set Copy
+#Write a program to create a copy of a set using copy() and prove that changes
+print(a.copy())
+print(b.copy())
