@@ -1,0 +1,92 @@
+emp=["mani","akhila","jasu"]
+def add_emp(lst):
+    lst = lst + ["Ravi"]
+    print(lst)
+add_emp(emp)
+print(emp)
+#Inside the function, a new local list is created instead of modifying the original global list.
+#correct way
+emp=["mani","akhila","jasu"]
+def add_emp(lst):
+    lst.append("chandu")
+    print(lst)
+add_emp(emp)
+
+
+#The function is printing the total but does not use a return statement.
+#In Python, if a function does not explicitly return a value, it automatically returns None, so when the result is stored and used later, it becomes None.
+def total_marks(a, b, c):
+    total = a + b + c
+print( total_marks(80, 85, 90))
+#correct program
+def total_marks(a, b, c):
+    total = a + b + c
+    return total
+print( total_marks(80, 85, 90))
+
+#The not found message is placed inside the loop, so it prints during every iteration where the value doesn't match.
+lst=[4,6,7,3,8,0]
+x=7
+for i in lst:
+    if i == x:
+        print("Value found")
+    else:
+        print("Value not found")   # wrong placement
+#another method
+lst=[4,6,7,3,8,0]
+x=7
+for i in lst:
+    if x==i:
+        print("found")
+        break
+if x!=i:
+    print("not found")
+
+
+#The loop control variable is not updated, or the exit condition is never changed.
+item = ["mango", "apple", "banana"]
+
+while True:
+    print("\n--- Menu Card ---")
+    print("1. add")
+    print("2. delete")
+    print("3. list")
+    print("4. exit")
+
+    a = int(input("enter an option: "))
+
+    if a == 1:
+        b = input("enter item to add: ")
+        item.append(b)
+        print(item)
+
+    elif a == 2:
+        c = input("enter item to remove: ")
+        if c in item:
+            item.remove(c)
+        else:
+            print("item not found")
+        print(item)
+
+    elif a == 3:
+        print(item)
+
+    elif a == 4:
+        print("exit")
+        break
+
+    else:
+        print("invalid option")
+
+#while we use break it will break other wise keep running
+
+#
+student={101: 45,102:56,103:96,104:97}
+roll = (input("Enter roll: "))
+if roll in student:
+    print("Roll number exists")
+else:
+    print("Roll number not found")
+#not found because we are using string thats why it is showing not found
+
+roll = int(input("Enter roll: "))
